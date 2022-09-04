@@ -1,0 +1,35 @@
+/*Calculadora */
+.calculator {
+    border: 3px rgb(68, 68, 243) ridge;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f8b0;
+}
+
+/*botones de arriba*/
+.calculator input.length {
+    color: red;
+    width: 60px;
+}
+
+
+/*botones*/
+.calculator [type=button] {
+    width: 35px;
+    padding: 0;
+}
+
+/* pantalla */
+#screenText {
+    width: 180px;
+    border: 2px black solid;
+    text-align: right;
+    position: relative;
+    margin-left: 26px;
+    padding: 0px 5px;
+    background-color: white;
+    overflow: hidden;
+}

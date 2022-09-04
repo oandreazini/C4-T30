@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/code.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 4</title>
+</head>
+
+<body>
+    <div class="calculator">
+
+        <form action="#" name="calculator" id="calculator">
+
+            <p id="screenText">0</p>
+
+            <p>
+                <input type="button" class="length" value="Retr" onclick="back()" />
+                <input type="button" class="length" value="CE" onclick="deletePart()" />
+                <input type="button" class="length" value="C" onclick="deleteAll()" />
+            </p>
+
+            <p>
+                <input type="button" value="7" onclick="number('7')" />
+                <input type="button" value="8" onclick="number('8')" />
+                <input type="button" value="9" onclick="number('9')" />
+                <input type="button" value="/" onclick="calculate('/')" />
+                <input type="button" value="Raiz" onclick="sqrt()" />
+            </p>
+
+            <p>
+                <input type="button" value="4" onclick="number('4')" />
+                <input type="button" value="5" onclick="number('5')" />
+                <input type="button" value="6" onclick="number('6')" />
+                <input type="button" value="*" onclick="calculate('*')" />
+                <input type="button" value="%" onclick="percent()" />
+            </p>
+
+            <p>
+                <input type="button" value="1" onclick="number('1')" />
+                <input type="button" value="2" onclick="number('2')" />
+                <input type="button" value="3" onclick="number('3')" />
+                <input type="button" value="-" onclick="calculate('-')" />
+                <input type="button" value="1/x" onclick="inve()" />
+            </p>
+
+            <p>
+                <input type="button" value="0" onclick="number('0')" />
+                <input type="button" value="+/-" onclick="opposite()" />
+                <input type="button" value="." onclick="number('.')" />
+                <input type="button" value="+" onclick="calculate('+')" />
+                <input type="button" value="=" onclick="equal()" />
+            </p>
+
+        </form>
+        
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
